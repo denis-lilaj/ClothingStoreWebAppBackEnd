@@ -4,15 +4,20 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the .csproj file and restore any dependencies
-COPY *.csproj ./
-RUN dotnet restore
+# Copy the .csproj file(s) and restore any dependencies
+COPY ClothingStoreWebAPI/*.csproj ./ClothingStoreWebAPI/
+COPY Infrastructure/*.csproj ./Infrastructure/
+COPY Application/*.csproj ./Application/
+COPY Domain/*.csproj ./Domain/
+
+# Restore the dependencies
+RUN dotnet restore ./ClothingStoreWebAPI/ClothingStoreWebAPI.csproj
 
 # Copy the rest of the application code
 COPY . ./
 
 # Build and publish the application
-RUN dotnet publish -c Release -o out
+RUN dotnet publish ./ClothingStoreWebAPI/ClothingStoreWebAPI.csproj -c Release -o out
 
 # Use the official .NET runtime image for the runtime environment
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
