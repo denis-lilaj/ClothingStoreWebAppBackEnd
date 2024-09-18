@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ogoZ2vLDUiVxBGWOToDlbvITDexkBXZO2E95YtYchAE=",
+  "Source": "ClothingStoreWebAPI",
+  "BasePath": "_content/ClothingStoreWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

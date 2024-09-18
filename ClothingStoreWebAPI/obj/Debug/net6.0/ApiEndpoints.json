@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "ClothingStoreWebAPI.Controllers.Version1.ClothingItemController",
+    "Method": "AddClothingItem",
+    "RelativePath": "AddClothingItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clothingItem",
+        "Type": "Domain.Aggregates.ClothingItem.ClothingItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClothingStoreWebAPI.Controllers.Version1.UserProfileController",
+    "Method": "GetAllUserProfiles",
+    "RelativePath": "api/v1/UserProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClothingStoreWebAPI.Controllers.Version1.UserProfileController",
+    "Method": "CreateUserProfile",
+    "RelativePath": "api/v1/UserProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profileCreate",
+        "Type": "ClothingStoreWebAPI.Contracts.Requests.UserProfileCreate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClothingStoreWebAPI.Controllers.Version1.UserProfileController",
+    "Method": "GetUserProfileById",
+    "RelativePath": "api/v1/UserProfile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
