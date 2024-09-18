@@ -1,0 +1,5 @@
+[build]
+command = "dotnet publish ClothingStoreWebAPI/ClothingStoreWebAPI.csproj -c Release -o out"
+
+[start]
+command = "dotnet ./out/ClothingStoreWebAPI.dll"
