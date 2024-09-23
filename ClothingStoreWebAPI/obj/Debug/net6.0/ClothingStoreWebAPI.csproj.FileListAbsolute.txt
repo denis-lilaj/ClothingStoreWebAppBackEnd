@@ -78,3 +78,4 @@ C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\obj\De
 C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\obj\Debug\net6.0\ClothingStoreWebAPI.pdb
 C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\obj\Debug\net6.0\ClothingStoreWebAPI.genruntimeconfig.cache
 C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\obj\Debug\net6.0\ref\ClothingStoreWebAPI.dll
+C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\obj\Debug\net6.0\ClothingStoreWebAPI.sourcelink.json

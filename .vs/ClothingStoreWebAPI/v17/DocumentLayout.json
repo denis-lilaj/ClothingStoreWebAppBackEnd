@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\clothingstorewebapi\\registrars\\bogardregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|solutionrelative:clothingstorewebapi\\registrars\\bogardregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\clothingstorewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|solutionrelative:clothingstorewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\clothingstorewebapi\\controllers\\version1\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|solutionrelative:clothingstorewebapi\\controllers\\version1\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\application\\userprofiles\\queries\\getuserprofilebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|solutionrelative:application\\userprofiles\\queries\\getuserprofilebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\application\\userprofiles\\queryhandlers\\getuserprofilebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|solutionrelative:application\\userprofiles\\queryhandlers\\getuserprofilebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BogardRegistrar.cs",
-              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Registrars\\BogardRegistrar.cs",
-              "RelativeDocumentMoniker": "ClothingStoreWebAPI\\Registrars\\BogardRegistrar.cs",
-              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Registrars\\BogardRegistrar.cs",
-              "RelativeToolTip": "ClothingStoreWebAPI\\Registrars\\BogardRegistrar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T23:16:08.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetUserProfileByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\UserProfiles\\QueryHandlers\\GetUserProfileByIdQuery.cs",
-              "RelativeDocumentMoniker": "Application\\UserProfiles\\QueryHandlers\\GetUserProfileByIdQuery.cs",
-              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\UserProfiles\\QueryHandlers\\GetUserProfileByIdQuery.cs",
-              "RelativeToolTip": "Application\\UserProfiles\\QueryHandlers\\GetUserProfileByIdQuery.cs",
-              "ViewState": "AQIAAAAAAAAIAAAAAABRwBgAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T23:05:29.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetUserProfileById.cs",
-              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\UserProfiles\\Queries\\GetUserProfileById.cs",
-              "RelativeDocumentMoniker": "Application\\UserProfiles\\Queries\\GetUserProfileById.cs",
-              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\UserProfiles\\Queries\\GetUserProfileById.cs",
-              "RelativeToolTip": "Application\\UserProfiles\\Queries\\GetUserProfileById.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T23:03:17.343Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ClothingStoreWebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\appsettings.json",
+              "RelativeToolTip": "ClothingStoreWebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAADtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-23T16:43:57.668Z",
               "EditorCaption": ""
             },
             {
@@ -75,9 +41,9 @@
               "RelativeDocumentMoniker": "ClothingStoreWebAPI\\Controllers\\Version1\\UserProfileController.cs",
               "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Controllers\\Version1\\UserProfileController.cs",
               "RelativeToolTip": "ClothingStoreWebAPI\\Controllers\\Version1\\UserProfileController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAhAAAA",
+              "ViewState": "AQIAAA0AAACSmZmZmTk0wCMAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T22:57:23.314Z",
+              "WhenOpened": "2024-09-18T11:56:14.643Z",
               "EditorCaption": ""
             }
           ]
