@@ -55,7 +55,7 @@ namespace ClothingStoreWebAPI.Controllers.Version1
 
         [Route(APIRoutes.UserProfiles.IdRoute)]
         [HttpPatch]
-        public async Task<IActionResult> UpdateUserProfile(string id, [FromBody] CreateUserProfileCommand updatedProfile)
+        public async Task<IActionResult> UpdateUserProfile(string id, [FromBody] UserProfileCreate updatedProfile)
         {
             var command = _mapper.Map<UpdateUserProfileBasicInfoCommand>(updatedProfile);
             command.UserProfileId = Guid.Parse(id);
