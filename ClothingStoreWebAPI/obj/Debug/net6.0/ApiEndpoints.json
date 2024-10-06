@@ -56,5 +56,58 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClothingStoreWebAPI.Controllers.Version1.UserProfileController",
+    "Method": "UpdateUserProfile",
+    "RelativePath": "api/v1/UserProfile/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedProfile",
+        "Type": "Application.UserProfiles.Commands.CreateUserProfileCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClothingStoreWebAPI.Controllers.Version1.UserProfileController",
+    "Method": "DeleteUserProfile",
+    "RelativePath": "api/v1/UserProfile/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClothingStoreWebAPI.Controllers.Version1.UserProfileController",
+    "Method": "LogInGetUserIdTest",
+    "RelativePath": "api/v1/UserProfile/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

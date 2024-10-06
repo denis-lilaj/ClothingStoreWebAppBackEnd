@@ -27,7 +27,7 @@ namespace ClothingStoreWebAPI.Controllers.Version1
         public async Task<IActionResult> GetAllUserProfiles()
         {
             var query = new GetAllUserProfilesQuery();
-            var response=_mediator.Send(query);
+            var response=await _mediator.Send(query);
             var profiles= _mapper.Map<List<UserProfileResponse>>(response);
             return Ok(profiles);
         }
@@ -42,14 +42,46 @@ namespace ClothingStoreWebAPI.Controllers.Version1
             return CreatedAtAction(nameof(GetUserProfileById), new { id = response.Guid }, userProfile );
         }
 
-        [Route("{id}")]
+        [Route(APIRoutes.UserProfiles.IdRoute)]
         [HttpGet]
         public async Task<IActionResult> GetUserProfileById(string id)
         {
-            var query = new GetUserProfileById { UserProfileId = Guid.Parse(id) };
+            var query = new GetUserProfileByIdQuery { UserProfileId = Guid.Parse(id) };
             var response= await _mediator.Send(query);
             var userProfile = _mapper.Map<UserProfileResponse>(response);
             return Ok(userProfile);
         }
+
+
+        [Route(APIRoutes.UserProfiles.IdRoute)]
+        [HttpPatch]
+        public async Task<IActionResult> UpdateUserProfile(string id, CreateUserProfileCommand updatedProfile)
+        {
+            var command = _mapper.Map<UpdateUserProfileBasicInfoCommand>(updatedProfile);
+            command.UserProfileId = Guid.Parse(id);
+            var response=await _mediator.Send(command);
+
+            return NoContent(); 
+        }
+
+
+        [Route(APIRoutes.UserProfiles.IdRoute)]
+        [HttpDelete]
+        public async Task<IActionResult> DeleteUserProfile(string id)
+        {
+            var command = new DeleteUserProfileCommand { UserProfileId = Guid.Parse(id) };
+            var response = await _mediator.Send(command);
+            return NoContent();
+        }
+
+        [Route("LogIn/{username}")]
+        [HttpGet]
+        public async Task<IActionResult> LogInGetUserIdTest(string username)
+        {
+            var command=new GetUserIdQuery { Username= username };
+            var response = await _mediator.Send(command);
+            return Ok(response);
+        }
+      
     }
 }

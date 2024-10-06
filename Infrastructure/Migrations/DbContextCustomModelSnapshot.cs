@@ -441,6 +441,9 @@ namespace Infrastructure.Migrations
                             b1.Property<Guid>("UserProfileGuid")
                                 .HasColumnType("uuid");
 
+                            b1.Property<DateTime>("DateCreated")
+                                .HasColumnType("timestamp with time zone");
+
                             b1.Property<DateTime>("DateOfBirth")
                                 .HasColumnType("timestamp with time zone");
 
@@ -454,6 +457,9 @@ namespace Infrastructure.Migrations
 
                             b1.Property<bool>("IsEmailVerified")
                                 .HasColumnType("boolean");
+
+                            b1.Property<DateTime>("LastModified")
+                                .HasColumnType("timestamp with time zone");
 
                             b1.Property<string>("LastName")
                                 .IsRequired()

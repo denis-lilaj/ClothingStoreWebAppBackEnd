@@ -9,7 +9,8 @@ namespace ClothingStoreWebAPI.MappingProfiles
     public class UserProfileMappings : Profile
     {
         public UserProfileMappings() {
-            CreateMap<UserProfileCreate, CreateUserProfileCommand>(); 
+            CreateMap<UserProfileCreate, CreateUserProfileCommand>();
+            CreateMap<UserProfileCreate, UpdateUserProfileBasicInfoCommand>();
             CreateMap<UserProfile,UserProfileResponse>();
             CreateMap<BasicInfo, BasicInformation>();
         }
