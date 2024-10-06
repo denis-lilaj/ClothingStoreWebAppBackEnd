@@ -23,6 +23,9 @@ namespace ClothingStoreWebAPI.Registrars
 
             app.UseAuthorization();
 
+                app.UseCors("AllowAllOrigins"); // Apply the CORS policy here
+
+
             app.MapControllers();
         }
 

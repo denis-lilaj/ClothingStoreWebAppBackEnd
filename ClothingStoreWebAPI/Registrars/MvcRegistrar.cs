@@ -19,7 +19,18 @@ namespace ClothingStoreWebAPI.Registrars
                 config.GroupNameFormat = "'v','VVV'";
                 config.SubstituteApiVersionInUrl = true;
             }
+            
             );
+           builder.Services.AddCors(options =>
+                {
+                   options.AddPolicy("AllowAllOrigins", builder =>
+                {
+                    builder.AllowAnyOrigin()                // Allow all origins
+                           .AllowAnyMethod()                // Allow all HTTP methods (GET, POST, etc.)
+                           .AllowAnyHeader();               // Allow any headers
+        });
+    });
+            
         }
     }
 }
