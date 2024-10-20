@@ -1,6 +1,8 @@
-﻿using Application.UserProfiles.Commands;
+﻿using Application;
+using Application.UserProfiles.Commands;
 using Application.UserProfiles.Queries;
 using AutoMapper;
+using ClothingStoreWebAPI.Common;
 using ClothingStoreWebAPI.Contracts.Requests;
 using ClothingStoreWebAPI.Contracts.Responses;
 using MediatR;
@@ -12,7 +14,7 @@ namespace ClothingStoreWebAPI.Controllers.Version1
     [ApiController]
     [ApiVersion("1.0")]
     [Route(APIRoutes.BaseRoute)]
-    public class UserProfileController : Controller
+    public class UserProfileController : BaseController
     {
 
         private readonly IMediator _mediator;
@@ -52,6 +54,10 @@ namespace ClothingStoreWebAPI.Controllers.Version1
         {
             var query = new GetUserProfileByIdQuery { UserProfileId = Guid.Parse(id) };
             var response= await _mediator.Send(query);
+            if (response is null)
+            {
+                return NotFound("Not any user with this profile Id found");
+            }
             var userProfile = _mapper.Map<UserProfileResponse>(response);
             return Ok(userProfile);
         }
@@ -64,15 +70,12 @@ namespace ClothingStoreWebAPI.Controllers.Version1
         {
             var command = _mapper.Map<UpdateUserProfileBasicInfoCommand>(updatedProfile);
             command.UserProfileId = Guid.Parse(id);
-            var response=await _mediator.Send(command);
-            if (response != null)
+            var response = await _mediator.Send(command);
+            if (response.isError)
             {
-                return NoContent();
+                HandleErrorResponse(response.Errors);
             }
-
-            else {
-                return BadRequest(response);
-            }
+            return NoContent();
         }
 
 

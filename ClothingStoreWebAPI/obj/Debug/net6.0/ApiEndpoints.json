@@ -72,7 +72,7 @@
       },
       {
         "Name": "updatedProfile",
-        "Type": "Application.UserProfiles.Commands.CreateUserProfileCommand",
+        "Type": "ClothingStoreWebAPI.Contracts.Requests.UserProfileCreate",
         "IsRequired": true
       }
     ],
@@ -97,7 +97,7 @@
   {
     "ContainingType": "ClothingStoreWebAPI.Controllers.Version1.UserProfileController",
     "Method": "LogInGetUserIdTest",
-    "RelativePath": "api/v1/UserProfile/{username}",
+    "RelativePath": "api/v1/UserProfile/LogIn/{username}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

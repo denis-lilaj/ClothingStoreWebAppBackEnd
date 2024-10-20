@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\clothingstorewebapi\\controllers\\version1\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|solutionrelative:clothingstorewebapi\\controllers\\version1\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\clothingstorewebapi\\common\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|solutionrelative:clothingstorewebapi\\common\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\clothingstorewebapi\\controllers\\version1\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|solutionrelative:clothingstorewebapi\\controllers\\version1\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\clothingstorewebapi\\clothingstorewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|solutionrelative:clothingstorewebapi\\clothingstorewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\application\\models\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|solutionrelative:application\\models\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\application\\errorcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|solutionrelative:application\\errorcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\application\\models\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|solutionrelative:application\\models\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\application\\userprofiles\\commands\\updateuserprofilebasicinfocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|solutionrelative:application\\userprofiles\\commands\\updateuserprofilebasicinfocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\application\\userprofiles\\commandhandlers\\updateuserprofilebasicinfocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC10142-3BEB-40E7-A070-27E630005613}|Application\\Application.csproj|solutionrelative:application\\userprofiles\\commandhandlers\\updateuserprofilebasicinfocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\clothingstorewebapi\\controllers\\version1\\clothingitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|solutionrelative:clothingstorewebapi\\controllers\\version1\\clothingitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\clothingstorewebapi\\contracts\\responses\\userprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|solutionrelative:clothingstorewebapi\\contracts\\responses\\userprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|c:\\users\\denis lilaj\\source\\repos\\clothingstorewebapi\\clothingstorewebapi\\contracts\\responses\\basicinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFFF203-1544-42BF-9F53-1390B9929890}|ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj|solutionrelative:clothingstorewebapi\\contracts\\responses\\basicinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Controllers\\Version1\\BaseController.cs",
+              "RelativeDocumentMoniker": "ClothingStoreWebAPI\\Controllers\\Version1\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Controllers\\Version1\\BaseController.cs",
+              "RelativeToolTip": "ClothingStoreWebAPI\\Controllers\\Version1\\BaseController.cs",
+              "ViewState": "AQIAAAEAAADI/v////8QwCAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:15:18.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Common\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "ClothingStoreWebAPI\\Common\\ErrorResponse.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Common\\ErrorResponse.cs",
+              "RelativeToolTip": "ClothingStoreWebAPI\\Common\\ErrorResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAvQ0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:01:36.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClothingStoreWebAPI",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj",
+              "RelativeDocumentMoniker": "ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj",
+              "RelativeToolTip": "ClothingStoreWebAPI\\ClothingStoreWebAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-19T13:01:04.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorCodes.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\ErrorCodes.cs",
+              "RelativeDocumentMoniker": "Application\\ErrorCodes.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\ErrorCodes.cs",
+              "RelativeToolTip": "Application\\ErrorCodes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:47:58.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Controllers\\Version1\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "ClothingStoreWebAPI\\Controllers\\Version1\\UserProfileController.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Controllers\\Version1\\UserProfileController.cs",
+              "RelativeToolTip": "ClothingStoreWebAPI\\Controllers\\Version1\\UserProfileController.cs",
+              "ViewState": "AQIAAD8AAAAAZGZmZuYQwEwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:47:07.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClothingItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Controllers\\Version1\\ClothingItemController.cs",
+              "RelativeDocumentMoniker": "ClothingStoreWebAPI\\Controllers\\Version1\\ClothingItemController.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Controllers\\Version1\\ClothingItemController.cs",
+              "RelativeToolTip": "ClothingStoreWebAPI\\Controllers\\Version1\\ClothingItemController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:47:05.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserProfileResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Contracts\\Responses\\UserProfileResponse.cs",
+              "RelativeDocumentMoniker": "ClothingStoreWebAPI\\Contracts\\Responses\\UserProfileResponse.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Contracts\\Responses\\UserProfileResponse.cs",
+              "RelativeToolTip": "ClothingStoreWebAPI\\Contracts\\Responses\\UserProfileResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:47:04.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BasicInformation.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Contracts\\Responses\\BasicInformation.cs",
+              "RelativeDocumentMoniker": "ClothingStoreWebAPI\\Contracts\\Responses\\BasicInformation.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\ClothingStoreWebAPI\\Contracts\\Responses\\BasicInformation.cs",
+              "RelativeToolTip": "ClothingStoreWebAPI\\Contracts\\Responses\\BasicInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:47:02.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\Models\\OperationResult.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\OperationResult.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\Models\\OperationResult.cs",
+              "RelativeToolTip": "Application\\Models\\OperationResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:35:33.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateUserProfileBasicInfoCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\UserProfiles\\CommandHandlers\\UpdateUserProfileBasicInfoCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\UserProfiles\\CommandHandlers\\UpdateUserProfileBasicInfoCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\UserProfiles\\CommandHandlers\\UpdateUserProfileBasicInfoCommandHandler.cs",
+              "RelativeToolTip": "Application\\UserProfiles\\CommandHandlers\\UpdateUserProfileBasicInfoCommandHandler.cs",
+              "ViewState": "AQIAABcAAABAMDMzM3MuwB8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:32:46.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateUserProfileBasicInfoCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\UserProfiles\\Commands\\UpdateUserProfileBasicInfoCommand.cs",
+              "RelativeDocumentMoniker": "Application\\UserProfiles\\Commands\\UpdateUserProfileBasicInfoCommand.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\UserProfiles\\Commands\\UpdateUserProfileBasicInfoCommand.cs",
+              "RelativeToolTip": "Application\\UserProfiles\\Commands\\UpdateUserProfileBasicInfoCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:32:42.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Errors.cs",
+              "DocumentMoniker": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\Models\\Errors.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Errors.cs",
+              "ToolTip": "C:\\Users\\Denis Lilaj\\source\\repos\\ClothingStoreWebAPI\\Application\\Models\\Errors.cs",
+              "RelativeToolTip": "Application\\Models\\Errors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:31:29.213Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

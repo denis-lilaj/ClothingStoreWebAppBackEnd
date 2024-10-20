@@ -19,7 +19,6 @@ namespace Domain.Aggregates.UserProfile
         public string Email { get; private set; }
         public bool IsEmailVerified { get; private set; }
         public string PhoneNumber { get; private set; }
-        public BasicInfo Basic_Info { get; private set; }    
       
         public static BasicInfo CreateBasicInfo(string firstName, string lastName, string userName, DateTime dateOfBirth, string email,
                                                 string phoneNumber)
@@ -36,15 +35,7 @@ namespace Domain.Aggregates.UserProfile
 
             };
 
-            return basicInfo;
-        
+            return basicInfo;     
         }
-
-
-        public void UpdateBasicInfo(BasicInfo newInfo)
-        {
-            Basic_Info = newInfo;
-        }
-
     }
 }

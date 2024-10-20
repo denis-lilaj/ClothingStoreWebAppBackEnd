@@ -79,3 +79,11 @@ C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\obj\De
 C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\obj\Debug\net6.0\ClothingStoreWebAPI.genruntimeconfig.cache
 C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\obj\Debug\net6.0\ref\ClothingStoreWebAPI.dll
 C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\obj\Debug\net6.0\ClothingStoreWebAPI.sourcelink.json
+C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Denis Lilaj\source\repos\ClothingStoreWebAPI\ClothingStoreWebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

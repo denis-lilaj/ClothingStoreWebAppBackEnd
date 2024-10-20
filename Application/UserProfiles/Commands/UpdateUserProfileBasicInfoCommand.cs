@@ -1,4 +1,5 @@
-﻿using Domain.Aggregates.UserProfile;
+﻿using Application.Models;
+using Domain.Aggregates.UserProfile;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Application.UserProfiles.Commands
 {
-    public class UpdateUserProfileBasicInfoCommand : IRequest
+    public class UpdateUserProfileBasicInfoCommand : IRequest<OperationResult<UserProfile>>
     {
         public Guid UserProfileId { get; set; }
         public string FirstName { get; set; }

@@ -32,5 +32,13 @@ namespace Domain.Aggregates.UserProfile
             return userProfile;
         }
 
+
+        public void UpdateBasicInfo(BasicInfo newInfo)
+        {
+            BasicInfo = newInfo;
+            LastModified = DateTime.UtcNow;
+        }
+
+
     }
 }
