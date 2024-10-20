@@ -27,7 +27,7 @@ namespace ClothingStoreWebAPI.Controllers.Version1
         }
 
         [HttpGet]
-        [Authorize]
+      //  [Authorize]
         public async Task<IActionResult> GetAllUserProfiles()
         {
             var query = new GetAllUserProfilesQuery();
@@ -37,7 +37,7 @@ namespace ClothingStoreWebAPI.Controllers.Version1
         }
 
         [HttpPost]
-        [Authorize]
+       // [Authorize]
         public async Task<IActionResult> CreateUserProfile([FromBody] UserProfileCreate profileCreate)
         {
             var command = _mapper.Map<CreateUserProfileCommand>(profileCreate);
@@ -49,7 +49,7 @@ namespace ClothingStoreWebAPI.Controllers.Version1
 
         [Route(APIRoutes.UserProfiles.IdRoute)]
         [HttpGet]
-        [Authorize]
+      //  [Authorize]
         public async Task<IActionResult> GetUserProfileById(string id)
         {
             var query = new GetUserProfileByIdQuery { UserProfileId = Guid.Parse(id) };
@@ -65,7 +65,7 @@ namespace ClothingStoreWebAPI.Controllers.Version1
 
         [Route(APIRoutes.UserProfiles.IdRoute)]
         [HttpPatch]
-        [Authorize]
+      //  [Authorize]
         public async Task<IActionResult> UpdateUserProfile(string id, [FromBody] UserProfileCreate updatedProfile)
         {
             var command = _mapper.Map<UpdateUserProfileBasicInfoCommand>(updatedProfile);
@@ -81,7 +81,7 @@ namespace ClothingStoreWebAPI.Controllers.Version1
 
         [Route(APIRoutes.UserProfiles.IdRoute)]
         [HttpDelete]
-        [Authorize]
+      //  [Authorize]
         public async Task<IActionResult> DeleteUserProfile(string id)
         {
             var command = new DeleteUserProfileCommand { UserProfileId = Guid.Parse(id) };
@@ -91,7 +91,7 @@ namespace ClothingStoreWebAPI.Controllers.Version1
 
         [Route("LogIn/{username}")]
         [HttpGet]
-        [Authorize]
+      //  [Authorize]
         public async Task<IActionResult> LogInGetUserIdTest(string username)
         {
             var command=new GetUserIdQuery { Username= username };
